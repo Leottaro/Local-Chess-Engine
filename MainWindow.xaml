@@ -1,0 +1,11 @@
+﻿<Window x:Class="Chess.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chess"
+        mc:Ignorable="d"
+        Title="Leottaro's Chess engine" Height="656" Width="640" MinWidth="309" MinHeight="332" MaxWidth="1077" MaxHeight="1100"
+        Name ="MyWindow" ResizeMode="CanResize" Background="#111" SizeChanged="MyWindow_SizeChanged">
+    <Canvas Name="MyCanvas" Background="#E11" Height="640" Width="640" Focusable="True" HorizontalAlignment="LEft" VerticalAlignment="Top" MouseLeftButtonDown="MyCanvas_MouseLeftButtonDown"  MouseMove="MyCanvas_MouseMove"  MouseLeftButtonUp="MyCanvas_MouseLeftButtonUp"/>
+</Window>
